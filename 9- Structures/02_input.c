@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include<string.h>
-struct employee{
+#include <string.h>
+struct employee
+{
     int code;
     float salary;
     char name[10];
-
 };
 
 int main()
 {
-    struct employee e1,e2,e3;
+    struct employee e1, e2, e3;
     printf("enter the value for code of e1:");
     scanf("%d\n", &e1.code);
     printf("enter the value for salary of e1:");
@@ -30,7 +30,6 @@ int main()
     scanf("%f\n", &e3.salary);
     printf("enter the value for name of e3:");
     scanf("%s\n", e3.name);
-
 
     return 0;
 }
