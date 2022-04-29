@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int a,b;
-    int sum=a+b;
+    int a, b;
+    int sum = a + b;
     printf("enter the value of a \n");
-    scanf("%d",&a);
+    scanf("%d", &a);
     printf("enter the value of b is\n");
-    scanf("%d",&b);
-    printf(" the sum of int main %d\n",a+b);
-    printf("the sum of a and b is %d\n",a+b);
+    scanf("%d", &b);
+    printf(" the sum of int main %d\n", a + b);
+    printf("the sum of a and b is %d\n", a + b);
 
     return 0;
 }

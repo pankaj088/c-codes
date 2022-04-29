@@ -5,7 +5,7 @@ int main()
     int n = 0;
     for (int i = 1; i <= 10; i++)
     {
-        n = n + (8*i);
+        n = n + (8 * i);
         // printf("%d\n", n);
     }
     printf("%d", n);
@@ -20,8 +20,6 @@ int main()
     //     // printf("%d\n", sum);
     // }
     // printf("%d", sum);
-    
-
 
     return 0;
 }
