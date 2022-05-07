@@ -9,8 +9,7 @@ int main()
     ptr = &i; // ptr i ka address ko store kariga ,
     ptr_ptr = &ptr;
 
-    printf("the value of i is %d\n",**ptr_ptr);  // *ptr value degi ptr ka or **ptr value degi i ki .
+    printf("the value of i is %d\n", **ptr_ptr); // *ptr value degi ptr ka or **ptr value degi i ki .
 
-
-     return 0;
+    return 0;
 }

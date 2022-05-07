@@ -4,15 +4,15 @@ int main()
 {
     int marks[5]; // yaha marks variable hai
 
-    for(int i=0;i<5;i++){
-     printf("enter the value of marks for student %d\n",i+1);
-     scanf("%d",&marks[i]);   
-    }
-    for (int i = 0; i <5; i++)
+    for (int i = 0; i < 5; i++)
     {
-        printf("the value of marks for student %d is :%d\n",i+1,marks[i]);
+        printf("enter the value of marks for student %d\n", i + 1);
+        scanf("%d", &marks[i]);
     }
-    
+    for (int i = 0; i < 5; i++)
+    {
+        printf("the value of marks for student %d is :%d\n", i + 1, marks[i]);
+    }
 
     return 0;
 }

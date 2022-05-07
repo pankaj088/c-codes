@@ -2,12 +2,12 @@
 
 int main()
 {
-    int i =25;
+    int i = 25;
     int *ptr = &i;
-    printf("the value of ptr is %u\n",ptr); // ptr ka value yani i ka address 
-    ptr++; // ptr =ptr+1;
-    //ptr++; yai or add karnai kai liyai
-    printf("the value of ptr is%u\n",ptr);// yaha pointer integer type ka hai islye 4 bytes add ho gyiga 
+    printf("the value of ptr is %u\n", ptr); // ptr ka value yani i ka address
+    ptr++;                                   // ptr =ptr+1;
+    // ptr++; yai or add karnai kai liyai
+    printf("the value of ptr is%u\n", ptr); // yaha pointer integer type ka hai islye 4 bytes add ho gyiga
 
     // agar charcter(c) rahiga to 1 byte increment hoga kuki charter mai 1 byte hota hai , example
 
