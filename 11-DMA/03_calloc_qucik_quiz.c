@@ -6,7 +6,7 @@ int main()
     int *ptr;
     int n;
     printf("how many integers do you want enter:\n");
-    scanf("%d\n", &n);
+    scanf("%d", &n);
     ptr = (int *)calloc(n, sizeof(int));
 
     for (int i = 0; i < n; i++)

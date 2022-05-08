@@ -3,7 +3,7 @@
 
 int main()
 {
-    int *ptr;
+    int *ptr = 0;
     // // sizeof opreator in c
     // printf("the size of int on my pc is %d\n",sizeof(int));
     // printf("the size of float on my pc is %d\n",sizeof(float));

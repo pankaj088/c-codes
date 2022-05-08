@@ -3,8 +3,8 @@
 
 int main()
 {
-    int *ptr;
-    int *ptr2;
+    int *ptr = 0;
+    int *ptr2 = 0;
     // // sizeof opreator in c
     // printf("the size of int on my pc is %d\n",sizeof(int));
     // printf("the size of float on my pc is %d\n",sizeof(float));
@@ -20,7 +20,7 @@ int main()
         ptr2 = (int *)malloc(6000 * sizeof(int));
         printf("enter the value of %d element:\n", i);
         scanf("%d", &ptr[i]);
-        free(ptr2);    // yaha hm ptr2 ko free kar diyai
+        free(ptr2); // yaha hm ptr2 ko free kar diyai
     }
 
     for (int i = 0; i < 6; i++)
